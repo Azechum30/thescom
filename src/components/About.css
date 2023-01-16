@@ -1,0 +1,30 @@
+.head__section{
+  margin-top: 66px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.about__section{
+  background-color: #252323;
+  background-image: url('/public/imgs/dominion.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+}
+
+.leadership__title{
+  font-family: 'Poppins', sans-serif;
+}
+
+.beliefs{
+  background-color: rgba(0, 23, 102, 0.88);
+  background-image: url('/public/imgs/building.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins';
+  /* height: 50vh; */
+  padding: 25px 20px;
+  margin-bottom: 25px;
+}

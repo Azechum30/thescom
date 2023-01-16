@@ -1,0 +1,41 @@
+
+.partners__form{
+  font-family: "Poppins", sans-serif;
+}
+
+.header__text{
+  position: relative;
+}
+
+.header__transition::after{
+  content: ' ';
+  display: block;
+  width: 400px;
+  left: 32%;
+  height: 2px;
+  background-color: rgba(0,0,0, 0.1);
+  position: absolute;
+  transform: scale(0, 1);
+  transition: transform 250ms ease-in-out;
+}
+
+.header__transition:hover::after{
+  transform: scale(1,1);
+  transition: transform 600ms ease-in-out 300ms;
+}
+
+.header__transition:hover{
+  cursor: pointer;
+}
+
+.form-control{
+  outline : none !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 375px ) and (max-width: 600px){
+  .header__transition::after{
+    width: 100%;
+    left: 0;
+  }
+}

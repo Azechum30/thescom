@@ -1,0 +1,51 @@
+.service__heading{
+  font-family: 'Poppins';
+  color: #1b5ea4;
+}
+
+.card-header{
+  border-bottom: none !important;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+
+.card-image:hover{
+  opacity: 0.8;
+  transform: scale(1.015);
+}
+
+.timestamp{
+  color: blue
+}
+
+.bg-none{
+  background-color: white !important;
+}
+
+.member__section{
+  /* height: 200px !important; */
+  font-family: "Poppins";
+  background-color: rgba(0,0,0,0.8) !important;
+  background-image: url('/public/imgs/background-img.jpg');
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.member__section > h2{
+  font-weight: 600;
+}
+
+.belief{
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 767px){
+  .d-flex{
+    flex-wrap: wrap;
+  }
+}
+
+

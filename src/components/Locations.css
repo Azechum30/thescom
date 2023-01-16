@@ -1,0 +1,40 @@
+.location__container{
+  background-color: #0F3969 !important;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Poppins';
+  margin-top: -25px;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+}
+
+.location__container > .btn{
+  border: 1px solid white !important;
+  color: white;
+  font-size: 13px;
+  padding: 20px 20px;
+}
+
+.location__container > .btn:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.location__container > h3{
+  text-align: center;
+  word-wrap: normal;
+}
+
+@media (min-width: 375px) and (max-width:676px){
+  .location__container{
+    height: 30vh;
+  }
+
+  .location__container > h3{
+    margin-bottom: 15px;
+  }
+}
+
+
