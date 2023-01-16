@@ -1,7 +1,7 @@
-.navbar-bg{
+/* .navbar-bg{
   background-color: white !important;
   color: black !important;
-}
+} */
 
 .navbar-nav{
   margin-left: auto;
@@ -13,7 +13,7 @@
 }
 
 .nav-link:hover{
-  background-color: white !important;
+  background-color: lightgrey !important;
   color: black !important;
 }
 

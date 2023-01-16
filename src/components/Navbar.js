@@ -18,7 +18,7 @@ function Navbar() {
 
   window.addEventListener('scroll', changeBgColor)
   return (
-    <div className={bgColor ? 'navbar navbar-expand-lg bg-dark fixed-top' : 'navbar navbar-expand-lg bg-light fixed-top'} role='navigation'>
+    <div className={bgColor ? 'navbar navbar-expand-lg navbar-light bg-dark fixed-top' : 'navbar navbar-expand-lg bg-white fixed-top'} role='navigation'>
       <NavLink to='/' className={bgColor ? 'navbar-brand text-white' : 'navbar-brand'}>THESCOM</NavLink>
       <button className="navbar-toggler" type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
         <span className="navbar-toggler-icon"></span>
@@ -31,9 +31,9 @@ function Navbar() {
           }} className='nav-link text-uppercase'>Home</NavLink>
           </li>
           <li className="nav-item">
-           <NavLink to='/about' style={({isActive})=>{
+              <NavLink to='/about' style={({isActive})=>{
               return { color : isActive ? 'blue' : 'gray'}
-           }} className='nav-link text-uppercase'>About</NavLink>
+            }} className='nav-link text-uppercase'>About</NavLink>
           </li>
           <li className="nav-item">
             <NavLink to='/missions' style={({isActive})=>{

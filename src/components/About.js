@@ -21,9 +21,9 @@ function About() {
     <section className='about__section'>
       <div className="head__section py-5 container text-center">
           <h2 className="about__title py-4">THESCOM'S HISTORY</h2>
-         <div className="history">
+          <div className="history">
             <History description={desc[0].descriptions} />
-         </div>
+          </div>
 
       </div>
       <div className="leadership bg-white container-fluid text-dark text-center">
