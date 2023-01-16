@@ -1,0 +1,11 @@
+
+@media (min-width: 375px) and (max-width: 765px){
+
+    .row{
+        gap: 0 !important;
+    }
+    .remove-sm{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+}

@@ -27,7 +27,7 @@ function About() {
 
       </div>
       <div className="leadership bg-white container-fluid text-dark text-center">
-        <h2 className="py-4 leadership__title">THESCOM'S LEADERSHIP</h2>
+        <h2 className="pt-5 card-header leadership__title">THESCOM'S LEADERSHIP</h2>
       <div className="thescom__leadership container">
         <Leadership description={hist[0].descriptions} imageUrl={hist[0].imageUrl}/>
       </div>

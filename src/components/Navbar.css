@@ -26,5 +26,17 @@
   font-size: 13px !important;
 }
 
+.navbar-toggler{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.text-color{
+  color: white;
+}
+
 
 

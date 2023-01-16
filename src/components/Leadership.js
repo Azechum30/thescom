@@ -4,10 +4,10 @@ function Leadership({imageUrl, description}) {
   return (
     <div className='leader__section py-5'>
         <div className="row gy-3 gx-3">
-          <div className="col-sm-6">
+          <div className="col-sm-12 col-lg-6 col-md-12">
             <div className='text-justify'>{description}</div>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-12 col-lg-6 col-md-12">
             <div className="card">
               <div className="card-body">
                 <div className="card-img">
