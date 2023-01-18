@@ -55,7 +55,7 @@ const checkIsMember = (event) =>{
 
 
   return (
-    <div className="bg-white">
+    <div className="bg-color">
     <div className='partners__form container py-5 mx-auto'>
       <div className='header__text'>
       <h2 className='text-center pb-4  header__transition'>PARTNER WITH THESCOM</h2>
@@ -68,7 +68,7 @@ const checkIsMember = (event) =>{
                 setFirstName(e.target.value);
               }}/>
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="LastName">Last Name</label>
               <input type='text' name='LastName' id='LastName' className='form-control' required onChange={(e) =>{
                 setLastName(e.target.value);
@@ -83,7 +83,7 @@ const checkIsMember = (event) =>{
                 setDOB(e.target.value);
               }}/>
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="gender">Gender</label>
               <input type='text' name='gender' id='gender' className='form-control' required onChange={(e)=>{
                 setGender(e.target.value);
@@ -98,7 +98,7 @@ const checkIsMember = (event) =>{
                 setEmail(e.target.value);
               }}/>
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="phoneNumber">Phone Number</label>
               <input type='text' name='phoneNumber' id='phoneNumber' className='form-control' required onChange={(e)=>{
                 setPhoneNumber(e.target.value);
@@ -113,7 +113,7 @@ const checkIsMember = (event) =>{
                 setCountry(e.target.value);
               }}/>
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="City">City</label>
               <input type='text' name='City' id='City' className='form-control' required onChange={(e)=>{
                 setCity(e.target.value);
@@ -134,13 +134,13 @@ const checkIsMember = (event) =>{
               </div>
 
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="description">If Yes, Which THESCOM branch? If No, which church do you belong?</label>
             <input type='text' id='description' className='form-control'/>
             </div>
           </div>
 
-           <div className="row">
+          <div className="row">
             <div className="col-sm-6 p-3">
               <label htmlFor="branch">Do you have a THESCOM branch in your town or close to you?</label>
               <div className="form-check py-2">
@@ -157,7 +157,7 @@ const checkIsMember = (event) =>{
                 <label htmlFor="unsure" className='form-check-label'>I don't know</label>
               </div>
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="occupation">What is your Occupation?</label>
             <input type='text' id='occupation' className='form-control'/>
             </div>
@@ -168,7 +168,7 @@ const checkIsMember = (event) =>{
               <label htmlFor="training">Do you have any ministry training or certification? If Yes, Please explain or list titles</label>
               <input type='text' name='training' id='training' className='form-control' required/>
             </div>
-             <div className="col-sm-6 p-3">
+            <div className="col-sm-6 p-3">
               <label htmlFor="area" className='pb-3'>In which ways do you like to become part of the THESCOM family? (select all that apply)</label>
 
               <div className="form-check pb-2">
@@ -203,10 +203,8 @@ const checkIsMember = (event) =>{
                 Thank you for filling the form and choosing to be part of the THESCOM family. Kindly WhatsApp the +233 504 177 709 for us to get in touch with you.
               </p>
             </div>
-            <div className="col-sm-6 py-2">
-              <button type='submit' className='btn btn-lg btn-success w-50' onClick={()=>{
-                navigate('/getinvolved');
-              }}>Submit</button>
+            <div className="col-sm-6 py-2 mx-auto">
+              <input type='submit' className='btn btn-lg btn-success w-50 mx-auto' placeholder='Submit'/>
             </div>
           </div>
         </div>

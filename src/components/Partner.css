@@ -39,3 +39,7 @@
     left: 0;
   }
 }
+
+.bg-color{
+  background-color: rgba(199, 193, 193, 0.1) !important;
+}

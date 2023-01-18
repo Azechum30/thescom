@@ -1,6 +1,6 @@
 .location__container{
-  background-color: #0F3969 !important;
-  height: 20vh;
+  background-color: #0F3969;
+  min-height: 20vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -8,6 +8,7 @@
   margin-top: -25px;
   flex-wrap: wrap;
   padding: 30px 20px;
+  color: white;
 }
 
 .location__container > .btn{
@@ -18,8 +19,8 @@
 }
 
 .location__container > .btn:hover{
-  background-color: whitesmoke;
-  color: black;
+  background-color: whitesmoke !important;
+  color: black !important;
 }
 
 .location__container > h3{
@@ -27,9 +28,9 @@
   word-wrap: normal;
 }
 
-@media (min-width: 375px) and (max-width:676px){
+@media (min-width: 365px) and (max-width:900px){
   .location__container{
-    height: 30vh;
+    min-height: 30vh;
   }
 
   .location__container > h3{
